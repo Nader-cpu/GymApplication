@@ -1,0 +1,18 @@
+.p-dropdown-items-wrapper {
+	height: 150px !important;
+}
+
+.p-dropdown-panel {
+	width: 150px !important;
+	background-color: red;
+}
+/* Update the custom category styles */
+.custom-category {
+	font-weight: bold;
+	color: red;
+}
+
+/* Update the dropdown item styles */
+.p-dropdown-item {
+	color: blue;
+}

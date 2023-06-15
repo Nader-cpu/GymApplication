@@ -1,0 +1,26 @@
+.instructions {
+	color: inherit;
+	font-size: inherit;
+	font-family: "Arial", sans-serif !important; /* Change the font family here */
+	margin: auto;
+	width: 75vw;
+}
+
+.instructions li {
+	list-style-type: none;
+	position: relative;
+	margin-bottom: 20px; /* Add margin bottom to create space between each instruction */
+}
+
+.instructions li:before {
+	content: "•";
+	color: red;
+	margin-right: 8px;
+	position: absolute;
+	left: -15px;
+}
+
+.centralized {
+	width: 100vw !important;
+	display: flex !important;
+}
